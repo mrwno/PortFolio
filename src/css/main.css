@@ -1,6 +1,24 @@
-body{
-  background-color: #E5E5E5;
+@font-face {
+  font-family: 'kwixtersketch';
+  src: url('kwixter_sketch_d-webfont.woff2') format('woff2'),
+       url('kwixter_sketch_d-webfont.woff') format('woff'),
+       url('kwixter_sketch_d-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  background-color: #f2f2f2;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  margin-top: 7%;
+  font-size: 35px;
+  width:80%; 
+  text-align: justify;
+  line-height: 142%;
 }
 
 .header__logo{
@@ -13,16 +31,35 @@ body{
 
 
 .intro{
-  margin-left: 18%;
-  margin-top: -4%
+  margin-left: 13%;
+  margin-top: 0%;
+  display: flex;
+}
+
+.content{
+  width: 55%;
+}
+
+.intro1{
+  width: 45%;
 }
 
 .intro__name{
-  font-size: 250px;
-  font-weight: bold;
+  width: 60%;
+  background-image: url(../assets/bgtitle.svg);
+  font-family:'kwixtersketch';
+  font-size: 175px;
   font-style: italic;
+  color:#222328;
 }
 
 .intro__name.sec{
+  width: 75%;
   margin-left: 5%;
+}
+
+.content__mrwn1{
+  padding-bottom: 7%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
