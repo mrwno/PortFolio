@@ -15,7 +15,7 @@ body {
 
 p {
   margin-top: 7%;
-  font-size: 35px;
+  font-size: 24px;
   width:80%; 
   text-align: justify;
   line-height: 142%;
@@ -48,7 +48,7 @@ p {
   width: 60%;
   background-image: url(../assets/bgtitle.svg);
   font-family:'kwixtersketch';
-  font-size: 175px;
+  font-size: 125px;
   font-style: italic;
   color:#222328;
 }
@@ -59,7 +59,35 @@ p {
 }
 
 .content__mrwn1{
+  width: 15%;
   padding-bottom: 7%;
   padding-right: 5%;
   padding-left: 5%;
+}
+
+.content__mrwn2{
+  width: 20%;
+}
+
+.divcontact{
+  margin-left: 13%;
+}
+
+.divcontact2{
+  margin-left: 45%;
+  width: 55%;
+}
+
+.contact{
+  margin-left: -7%;
+  align-items: center;
+}
+
+.contact__button{
+  background-color: #6672c4;
+  width: 170px;
+  text-align: center;
+  margin-left: 30%;
+  color: #f2f2f2;
+  border-radius: 20px;
 }
