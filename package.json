@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "reset.css": "^2.0.2",
+    "style.css": "^1.0.0"
+  }
+}
