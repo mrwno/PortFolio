@@ -12,6 +12,7 @@ body {
   background-color: #f2f2f2;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
+  max-width: 1400px;
 }
 
 li{
@@ -44,14 +45,10 @@ p {
 
 
 .intro{
-  height: 50vh;
+  max-height: 50vh;
   margin-left: 13%;
   margin-top: 0%;
   display: flex;
-}
-
-.content{
-  width: 55%;
 }
 
 .intro1{
@@ -71,34 +68,6 @@ p {
   }
 }
 
-.content{
-  .content__mrwn1.s1{
-    transition: 0.3s;    
-  }  
-  &:hover .content__mrwn1.s1{
-    padding-right: 0%;
-    padding-left: 10%;
-  }
-  .content__mrwn1.s2{
-    transition: 0.3s;
-  }
-  &:hover .content__mrwn1.s2{
-    padding-right: 10%;
-    padding-left: 0%;
-  }
-}
-
-.content__mrwn1{
-  width: 15%;
-  padding-bottom: 7%;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
-.content__mrwn2{
-  width: 20%;
-}
-
 .divcontact{
   margin-left: 13%;
 }
@@ -106,4 +75,10 @@ p {
 .divcontact2{
   margin-left: 45%;
   width: 55%;
+}
+
+@media (min-width: 1400px){
+  .intro__name{
+    font-size: 125px;
+  }
 }

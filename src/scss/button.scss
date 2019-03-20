@@ -1,20 +1,21 @@
 .contact{
+  height: 10vh;
   margin-left: -7vh;
   align-items: center;
 }
 
 .contact__button{
   background-color: #6672c4;
-  width: 170px;
+  width: 25%;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 37.8%;
   color: #f2f2f2;
   border-radius: 20px;
   transition: 0.3s;
   &:hover{
     background-color: #505b9e;
-    width: 175px;
-    margin-left: 29.5%;
+    width: 28%;
+    margin-left: 36.4%;
   }
   &:active{
     color: #6672c4;
