@@ -9,4 +9,3 @@ button1.addEventListener('click', () =>{
   presentation.classList.toggle('is-close');
   console.log("menu open")
 });
-

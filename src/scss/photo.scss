@@ -1,6 +1,32 @@
 .content{
   width: 55%;
+  position: relative;
+  .loader {
+    z-index: 2;
+    position: absolute;
+    right: 27.5%;
+    top: 1%;
+    border: 16px solid #f2f2f2 opacity($color: #ffffff00);
+    border-radius: 50%;
+    border-top: 16px solid #6672c4;
+    width: 350px;
+    height: 350px;
+    -webkit-animation: spin 4s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    animation-direction: reverse;
+  }
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
   .content__mrwn1{
+    z-index: 1;
     width: 15%;
     padding-bottom: 7%;
     padding-right: 5%;
@@ -24,5 +50,6 @@
 }
 
 .content__mrwn2{
+  z-index: 3;
   width: 20%;
 }
