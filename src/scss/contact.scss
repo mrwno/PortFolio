@@ -1,17 +1,15 @@
 .intro__presentation{
-   transition: 0.5s;
+   transition: 0.3s;
    &.is-close{
-    transform: translateX(-50vw);
-    transition-delay: 0.4s;
+    transform: translateX(-50vw);empty-cells: show;
    }
 }
 
 .nav{
   transform: translateX(-50vw);
-  transition: 0.5s;
+  transition: 0.3s;
   list-style-type: none;
   &.is-open{
     transform: translateY(-20vh);
-    transition-delay: 0.4s;
   }  
 }

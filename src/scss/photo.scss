@@ -4,13 +4,15 @@
   .loader {
     z-index: 2;
     position: absolute;
-    right: 27.5%;
-    top: 1%;
+    right: 26%;
+    top: 0.5%;
     border: 16px solid #f2f2f2 opacity($color: #ffffff00);
     border-radius: 50%;
     border-top: 16px solid #6672c4;
-    width: 350px;
-    height: 350px;
+    width: 27vw;
+    height: 27vw;
+    max-width: 380px;
+    max-height: 380px;
     -webkit-animation: spin 4s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
     animation-direction: reverse;
@@ -50,6 +52,7 @@
 }
 
 .content__mrwn2{
+  position: relative;
   z-index: 3;
   width: 20%;
 }
